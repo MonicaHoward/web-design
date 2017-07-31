@@ -48,6 +48,8 @@ table {
 }
 /*END OF CSS RESET*/
 /*START OF MY CUSTOM CSS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
     background: url(pastries.jpeg);
     background-size: 100%;
@@ -62,8 +64,10 @@ body {
 }
 .title-appear {
   opacity: 1;
+  font-family: 'Roboto';
 }
 .title {
+  font-family: 'Roboto', serif;
   font-size: 10em;
 
 }
