@@ -83,8 +83,85 @@ nav {
   line-height: 6;
   text-align: center;
 }
+/*FRONT PAGE INFO SECTION*/
+.front-page-image {
+  float: left;
+  text-align: center;
+  margin: 50px 0 50px 150px;
+  width: 600px;
+}
+.info-graphic {
+  border: 5px solid #eae8e8;
+  float: left;
+  text-align: center;
+  margin: 160px 50px 0 150px;
+  padding: 100px 20px;
+  width: 300px;
+}
+.info-graphic h6 {
+  background-color: #eae8e8;
+  font-size: 2em;
+  padding: 50px auto;
+  line-height: 2;
+
+}
+.info-graphic h3 {
+background-color: #eae8e8;
+font-size: 1;
+line-height: 2;
+}
+.front-page-info-title {
+  clear: both;
+  text-align: center;
+  font-size: 2em;
+  line-height: 2;
+  margin: 30px auto;
+}
+.front-page-info-subtitle {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 30px auto;
+}
+.front-page-paragraph {
+  margin: 0 auto;
+  width: 80%;
+
+}
+.front-page-info p {
+  font-size: 1.5em;
+  line-height: 2;
+  float: left;
+  margin: 0 50px;
+  width: 40%
+}
+
+.read-more-button {
+  clear: both;
+  border: 3px solid black;
+  font-size: 1.75em;
+  text-align: center;
+  margin: 50px auto;
+  padding: 10px;
+  width: 200px;
+}
+/*SUB HERO PHOTO*/
+.sub-hero-photo-container {
+  height: 600px;
+  width: 100%;
+  background-image: url("pexels-photo-428311.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*.sub-hero-photo {
+  display: block;
+  height: auto;
+  width: 100%;
+
+}*/
 /*FOOTER CSS GOES HERE*/
 footer {
   background-color: #eae8e8;
   height: 500px;
+
 }
