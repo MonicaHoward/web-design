@@ -76,7 +76,6 @@ body {
   text-align: center;
   width: 30%;
 }
-
 .form-section {
   clear: both;
   margin: 10px;
@@ -111,9 +110,7 @@ button {
   text-align: center;
 }
 .reset-password {
-  float: right;
   font-size: .75em;
-  font-weight: bold;
   margin: 5% 3%;
   text-align: center;
 }
