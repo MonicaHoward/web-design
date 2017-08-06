@@ -7,23 +7,33 @@
   </head>
   <body>
     <!-- HEADER SECTION STARTS HERE -->
-    <header class="title">
-      <div class="logo">
-        <img src="icons8-Surfing-50.png" />
-      </div>
+    <div class="logo">
+      <img src="icons8-Surfing-50.png" />
       <h1>Mindjet Rentals</h1>
-    </header>
+    </div>
+    <!-- MAIN SECTION STARTS HERE -->
     <section class="main">
       <form>
-        <div>
-          <label>Email Address *<input type="text" /></label>
+        <div class="form-section">
+          <h5>Email Address *</h5>
+          <input type="text" class="text-input"/>
         </div>
-          <h6>Password *</h6>
-          <input />
-          <input type="checkbox" />
-          <h6>Remember Me</h6>
+        <div class="form-section">
+          <h5>Password *</h5>
+          <input class="text-input"/>
+        </div>
+        <div class="special-form-section">
+          <input type="checkbox" class="remember-me"/>
+          <h6 class="remember-me">Remember Me</h6>
+        </div>
+        <div class="form-section">
           <button>Login to Dashboard</button>
-          <h6>Lost Your Password?</h6>
+          <div class="reset-password">
+            <a href="#" class="reset">Forgot your username?</a>
+            <a href="#" class="reset">Forgot your password?</a>
+          </div>
+
+        </div>
       </form>
     </section>
     <!-- FOOTER SECTION STARTS HERE -->

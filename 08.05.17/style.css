@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -51,23 +52,21 @@ table {
 body {
   background-image: url("sea-beach-ocean-waves.jpg");
   background-size: cover;
+  font-family: 'Poiret One', cursive;
 }
 /*HEADER SECTION CSS STUFF*/
 .logo {
-  float: left;
-  margin: 50px 10px 50px 50px;
-  width: 50px;
+  margin: 50px;
+  padding: 10px;
 }
-.title img {
+.logo img {
   float: left;
+  margin: 0 10px;
   width: 30px;
 }
-.title h1 {
+.logo h1 {
   color: #f8f1f1;
-  float: left;
   font-size: 2em;
-  line-height: 1.5;
-  margin: 50px 0;
 }
 /*MAIN SECTION CSS STUFF*/
 .main {
@@ -77,24 +76,50 @@ body {
   text-align: center;
   width: 30%;
 }
-form {
-  padding: 20px 60px;
+
+.form-section {
+  clear: both;
+  margin: 10px;
+  padding: 10px 60px;
 }
-h6 {
+h5 {
+  margin: 2%;
   text-align: left;
 }
-input {
+.text-input {
   border: 2px solid gray;
   border-radius: 2px;
   line-height: 2;
+  padding: 1% 3%;
   width: 90%;
 }
+.special-form-section {
+  padding: 5px 60px;
+}
+.remember-me {
+  float: left;
+}
 button {
-  width: 50%;
+  background-color:  #2980b9;
+  color: white;
+  border: none;
+  clear: both;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.25em;
+  margin: 5%;
+  padding: 10px;
+  text-align: center;
+}
+.reset-password {
+  float: right;
+  font-size: .75em;
+  font-weight: bold;
+  margin: 5% 3%;
+  text-align: center;
 }
 /*FOOTER SECTION CSS STUFF*/
 footer {
-  margin: 350px 100px 50px 50px;
+  margin: 250px 100px 50px 50px;
 }
 .address {
   color: #FFF;
