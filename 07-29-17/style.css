@@ -153,14 +153,26 @@ line-height: 2;
   background-repeat: no-repeat;
   background-position: center;
 }
-/*.sub-hero-photo {
-  display: block;
-  height: auto;
-  width: 100%;
+.front-page-sub-section {
+  text-align: center;
+  margin: 0 auto;
+}
+.sub-section-elements {
+  clear: both;
+}
+.circle {
+  border: 3px solid black;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
 
-}*/
+}
 /*FOOTER CSS GOES HERE*/
 footer {
+  text-align: center;
+  margin: 50px auto;
   background-color: #eae8e8;
   height: 500px;
 
