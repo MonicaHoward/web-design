@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+  background: #5B2A86;
+  font-family: 'Rozha One', serif;
+}
+.title {
+  border-bottom: 3px solid #360568;
+  float: left;
+  font-size: 1.2em;
+  color: #360568;
+  /* Safari */
+  -webkit-transform: rotate(-270deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-270deg);
+
+  /* IE */
+  -ms-transform: rotate(-270deg);
+
+  /* Opera */
+  -o-transform: rotate(-270deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #360568;
+}
+.quote-holder {
+  color: #9AC6C5;
+  font-size: 2.5em;
+  line-height: 1.5;
+  margin: 8% auto auto 20%;
+  width: 50%;
+}
+.quote {
+  margin-top: 5%;
+}
+.quote-holder h2 {
+	text-align: right;
+}
+nav {
+	margin-right: 5%;
+}
+nav img {
+	border: 2px solid #360568;
+	border-radius: 5px;
+	display: block;
+	float: right;
+	margin: 5px;
+	padding: 1%;
+	text-align: right;
+	width: 2%;
+}
