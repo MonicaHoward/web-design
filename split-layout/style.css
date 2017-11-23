@@ -70,7 +70,15 @@ body {
 .categories {
   margin: 10% 5%;
 }
-
+.category {
+	border: 5px solid #FFF;
+	border-radius: 6px;
+	float: left;
+	margin: 4%;
+	padding: 5%;
+	text-align: center;
+	width: 30%;
+}
 /*RIGHT SIDE*/
 .right {
   background: ##E1E5EE;
@@ -105,7 +113,7 @@ body {
 
 .tag {
   background: #767B91;
-  color: #FFF;
+  color: #E5989B;
   padding: 1%;
   text-align: center;
   float: right;
