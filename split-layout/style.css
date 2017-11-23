@@ -47,28 +47,67 @@ table {
 	border-spacing: 0;
 }
 /*END OF CSS RESET*/
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
 .left {
   background: #C7CCDB;
   float: left;
   position: sticky;
   height: 100vh;
-  width: 50vw;
-
+  width: 40vw;
 }
 .left h1 {
   color: #E5989B;
+  font-size: 2em;
   padding: 5%;
 }
+.left p {
+  color: #2A324B;
+  margin-top: -5%;
+  padding-left: 5%;
+}
+.categories {
+  margin: 10% 5%;
+}
 
-
-
+/*RIGHT SIDE*/
 .right {
   background: ##E1E5EE;
   float: left;
   height: 100vh;
-  width: 50vw;
+  width: 60vw;
+}
+.nav {
+  position: fixed;
 }
 .nav li {
   float: right;
   padding: 5%;
+}
+.hack-container {
+  border: 10px solid #C7CCDB;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin: 5% auto;
+  width: 80%;
+}
+.placeholder-container {
+  padding: 5%;
+}
+.text-placeholder {
+  background: #C7CCDB;
+  border-radius: 4px;
+  width: 90%;
+  height: 14px;
+  margin: 2% auto;
+}
+
+.tag {
+  background: #767B91;
+  color: #FFF;
+  padding: 1%;
+  text-align: center;
+  float: right;
+  margin: 0 10%;
 }
