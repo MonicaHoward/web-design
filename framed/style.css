@@ -46,3 +46,39 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*END OF CSS RESET*/
+.container {
+
+}
+.main {
+  background-color: #FDE74C;
+  margin: 5%;
+  height: 80vh;
+  width: 90vw;
+}
+.nav-container {
+  float: left;
+  width: 10%;
+}
+.nav {
+  padding: 1%;
+}
+.nav li {
+  background-color: #3891A6;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  margin: 3% -5%;
+  padding: 10%;
+  text-align: center;
+  width: 40%;
+}
+.img-container {
+  float: left;
+  height: 90%;
+  width: 40%;
+}
+.img-container img {
+  height: 100%;
+  padding: 3%;
+}
