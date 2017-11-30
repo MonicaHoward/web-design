@@ -61,15 +61,15 @@ table {
   width: 10%;
 }
 .nav {
-  padding: 1%;
+  padding: 4%;
 }
 .nav li {
   background-color: #3891A6;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
-  margin: 3% -5%;
-  padding: 10%;
+  margin: 20% -20%;
+  padding: 20%;
   text-align: center;
   width: 40%;
 }
@@ -80,5 +80,13 @@ table {
 }
 .img-container img {
   height: 100%;
-  padding: 3%;
+  padding: 6%;
+}
+.recipe {
+  padding: 10%;
+  text-align: right;
+}
+.recipe h4 {
+  border-bottom: 3px solid white;
+
 }
