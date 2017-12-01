@@ -69,7 +69,17 @@ body {
 	height: 5px;
 	width: 35px;
 }
-
+.change .hamburger-1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .hamburger-2 {
+	opacity: 0;
+}
+.change .hamburger-3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
 .title {
   font-size: 8em;
 	margin: 10%;
