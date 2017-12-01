@@ -58,6 +58,12 @@ html, body {
   height: 100vh;
   width: 100vw;
 }
+.title-holder {
+  background: rgba(192, 253, 251, 0.5);
+  padding: 2%;
+  text-align: right;
+  width: 60%;
+}
 .title-1{
   font-weight: 800;
   font-size: 3em;
