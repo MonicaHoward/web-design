@@ -48,28 +48,31 @@ table {
 }
 /*END OF CSS RESET*/
 /*START OF MY CUSTOM CSS*/
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body {
-    background: url(pastries.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+		font-family: 'Vollkorn SC', serif;
 }
 .home-page {
-  margin: 25% auto;
-  width: 60%;
+	background: url(pastries.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
 }
-.title-disappear {
-  opacity: 0;
+.hamburger-menu {
+	cursor: pointer;
+	text-align: right;
+	padding: 5%;
 }
-.title-appear {
-  opacity: 1;
-  font-family: 'Roboto';
+.hamburger-1, .hamburger-2, .hamburger-3 {
+	background-color: black;
+	margin: 5px;
+	height: 5px;
+	width: 35px;
 }
-.title {
-  font-family: 'Roboto', serif;
-  font-size: 10em;
 
+.title {
+  font-size: 8em;
+	margin: 10%;
 }
 .down-arrow {
   width: 100%;
