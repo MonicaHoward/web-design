@@ -85,10 +85,22 @@ html, body {
   height: 100vh;
   width: 100vw;
 }
+.lorem-holder {
+	font-size: 2em;
+	padding: 10% 0 0 40%;
+	text-align: right;
+	width: 46%;
+}
 .beach-pineapple {
   background: url("https://static.pexels.com/photos/139229/pexels-photo-139229.jpeg");
   background-repeat: none;
   background-size: cover;
   height: 100vh;
   width: 100vw;
+}
+.lorem-holder2 {
+	font-size: 2em;
+	padding: 10% 0 0 10%;
+	text-align: left;
+	width: 46%;
 }
