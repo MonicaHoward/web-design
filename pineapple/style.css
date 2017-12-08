@@ -91,6 +91,10 @@ html, body {
 	text-align: right;
 	width: 46%;
 }
+.lorem {
+	background: rgba(252, 119, 83, 0.5);
+	padding: 3%;
+}
 .beach-pineapple {
   background: url("https://static.pexels.com/photos/139229/pexels-photo-139229.jpeg");
   background-repeat: none;
@@ -103,4 +107,8 @@ html, body {
 	padding: 10% 0 0 10%;
 	text-align: left;
 	width: 46%;
+}
+.lorem2 {
+	background: rgba(219, 213, 110, 0.5);
+		padding: 3%;
 }
