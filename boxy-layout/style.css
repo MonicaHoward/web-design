@@ -47,6 +47,32 @@ table {
 	border-spacing: 0;
 }
 /*END OF CSS RESET*/
-ul li{
+.title {
+  float: left;
+  padding: 1%;
+}
+.nav-links {
   float: right;
+  padding: 1%;
+}
+.nav-links li {
+  float: right;
+  padding: 1%;
+}
+.main-section {
+  clear: both;
+  border: 1px solid gray;
+  height: 100vh;
+  width: 100vw;
+
+}
+.lrg-pic {
+  border: 1px solid gray;
+  height: 100vh;
+  width: 55vw;
+}
+.smaller-ver-pics {
+  border: 1px solid gray;
+  height: 100vh;
+  width: 45vw;
 }
