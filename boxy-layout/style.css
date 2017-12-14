@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 /*END OF CSS RESET*/
+.navigation {
+  border: 3px solid black;
+  background: #8CBCB9;
+  height: 10%;
+}
 .title {
   float: left;
   padding: 1%;
@@ -61,18 +66,30 @@ table {
 }
 .main-section {
   clear: both;
-  border: 1px solid gray;
+  border: 1px solid green;
   height: 100vh;
   width: 100vw;
 
 }
 .lrg-pic {
-  border: 1px solid gray;
+  background: #DDA448;
+  float: left;
   height: 100vh;
   width: 55vw;
 }
-.smaller-ver-pics {
-  border: 1px solid gray;
+.smaller-vert-pics {
+  float: left;
   height: 100vh;
   width: 45vw;
+}
+.top {
+  clear: both;
+  background: #A3320B;
+  height: 50%;
+  width: 99%;
+}
+.bottom {
+  background: #7AA1D3;
+  height: 50%;
+  width: 99%;
 }
