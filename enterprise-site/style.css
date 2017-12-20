@@ -70,5 +70,60 @@ nav {
     margin: 2% 1%;
 }
 .header {
+  background: url("city.jpeg");
+  background-position: center;
+  background-size: cover;
   clear: both;
+  height: 60vh;
+  width: 100%;
+}
+.powered-up {
+  background: #FFF;
+  color: purple;
+  font-size: 1.75em;
+  margin: 5%;
+  padding: 1.5%;
+  width: 35%;
+}
+.switch {
+  background: #262626;
+  color: #FFF;
+  font-size: 1.5em;
+  margin-left: 5%;
+  padding: 1.5%;
+  width: 59%;
+}
+.learn-more {
+  background: yellow;
+  color: #000;
+  font-size: 2em;
+  margin-left: 49%;
+  padding: 1.5%;
+  width: 15%;
+}
+.options-section {
+	margin: 5%;
+}
+.options-section h4 {
+	font-size: 2em;
+}
+.options-section p {
+	font-size: 1.25em;
+	line-height: 6;
+}
+.four-options {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+.option {
+	border: 1px solid orange;
+	float: left;
+	margin-right: 2%;
+	padding: 1%;
+	width: 20%;
+}
+.learn-even-more {
+	clear: both;
+	line-height: 5;
 }
