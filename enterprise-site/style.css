@@ -117,8 +117,9 @@ nav {
 	width: 90%;
 }
 .option {
-	border: 1px solid orange;
+	background: #191919;
 	float: left;
+	line-height: 2;
 	margin-right: 2%;
 	padding: 1%;
 	width: 20%;
@@ -126,4 +127,16 @@ nav {
 .learn-even-more {
 	clear: both;
 	line-height: 5;
+}
+.yellow-bd {
+	border-top: 2px solid yellow;
+}
+.purple-bd {
+	border-top: 2px solid purple
+}
+.blue-bd {
+	border-top: 2px solid blue;
+}
+.orange-bd {
+	border-top: 2px solid orange;
 }
