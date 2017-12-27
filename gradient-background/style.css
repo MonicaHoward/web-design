@@ -52,7 +52,7 @@ body {
   height: 500vh;
 }
 .home-page {
-  background: rgb(50, 232, 117);
+  background: linear-gradient(rgb(50, 232, 117), rgb(86, 238, 244));
   position: fixed;
   height: 100vh;
   width: 100vw;
