@@ -47,12 +47,33 @@ table {
 	border-spacing: 0;
 }
 /*HEADER SECTION*/
+body {
+  font-family: 'Poppins', sans-serif;
+}
+img {
+  filter: grayscale(0.5) blur(10px);
+}
+header {
+  background:
+    linear-gradient( rgba(54,0,51, .9), rgba(11,135,147, .9) ),
+    url("https://images.pexels.com/photos/613182/pexels-photo-613182.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  height: 100vh;
+  width: 100vw;
+}
 nav {
-  margin: 2% 10% 0 10%;
+  padding: 2% 10% 0 10%;
+}
+nav span {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2em;
 }
 .nav-links {
   float: right;
-  width: 60%;
+  width: 70%;
 }
 .nav-links li {
   float: right;
