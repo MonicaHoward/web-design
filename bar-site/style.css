@@ -48,7 +48,7 @@ table {
 }
 /*HEADER SECTION*/
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   text-decoration: none;
@@ -92,10 +92,42 @@ nav span {
 .nav-link:hover::after {
   width: 100%;
   transition: width .3s;
-
 }
 .main {
   line-height: 2;
-  margin-top: 10%;
+  margin-top: 6%;
   text-align: center;
+}
+.main h6 {
+  font-weight: 100;
+}
+.main h5 {
+  font-size: 2em;
+  font-weight: 800;
+}
+.main h3 {
+  font-size: 4em;
+  font-weight: 900;
+}
+.counter-container {
+  margin: 0 auto;
+  width: 80%;
+}
+.counter-container span{
+  background: rgba(255, 255, 255, 0.3);
+  border: 3px solid rgba(11,135,147, .9);
+  border-radius: 50%;
+  display:inline-block;
+  line-height: 8;
+  margin: 5% 2%;
+  padding: 1%;
+  height: 100px;
+  width: 100px;
+}
+.main-page-links a {
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  color: #FFF;
+  margin: 5% 1%;
+  padding: 1%;
 }
