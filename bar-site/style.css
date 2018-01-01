@@ -217,3 +217,32 @@ nav span {
 	color: #FFF;
 	font-size: 2em;
 }
+.blog {
+	background:
+		linear-gradient( rgba(54,0,51, .7), rgba(11,135,147, .7) ),
+		url("https://images.pexels.com/photos/274192/pexels-photo-274192.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-size: cover;
+	background-repeat:no-repeat;
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 800;
+	padding: 1%;
+	text-align: center;
+}
+.blog div {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+
+	margin: 3%;
+	padding: 8%;
+}
+.button {
+	border: 3px solid rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  color: #FFF;
+	font-size: .75em;
+	font-weight: 100;
+  margin: 5%;
+  padding: 1%;
+	text-decoration: none;
+}
