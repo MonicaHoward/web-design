@@ -132,13 +132,15 @@ nav span {
   padding: 1%;
 }
 /*DRINK SPECIALS SECTION*/
-.drink-specials {
-
+.page-title h3 {
+	font-weight: 600;
+	font-size: 2em;
+	line-height: 2;
 }
 .box-container {
   margin: 5% auto;
 	text-align: center;
-  width: 90%;
+
 }
 .box-container span {
 	display: inline-block;
@@ -147,9 +149,71 @@ nav span {
 	height: 45vh;
   width: 45%;
 }
-.box-container img {
-  /*background-color: linear-gradient( rgba(54,0,51, .9), rgba(11,135,147, .9) );*/
-  width: 100%;
-	height: 100%;
-	border-radius: 2px;
+.box-container div {
+	background: rgba(54,0,51, .9);
+	margin-top: 50%;
+	margin-left: 60%;
+	padding: 2% 0;
+	width: 45%;
+}
+.drafts {
+	background:
+		linear-gradient( rgba(54,0,51, .6), rgba(11,135,147, .6) ),
+		url("https://images.pexels.com/photos/459280/pexels-photo-459280.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: #FFF;
+
+	font-size: 2em;
+}
+.longnecks {
+	background:
+		linear-gradient( rgba(54,0,51, .6), rgba(11,135,147, .6) ),
+		url("https://images.pexels.com/photos/338711/pexels-photo-338711.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: #FFF;
+
+	font-size: 2em;
+}
+.cocktails {
+	background:
+		linear-gradient( rgba(54,0,51, .6), rgba(11,135,147, .6) ),
+		url("https://images.pexels.com/photos/613037/pexels-photo-613037.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: #FFF;
+
+	font-size: 2em;
+}
+.wine {
+	background:
+		linear-gradient( rgba(54,0,51, .6), rgba(11,135,147, .6) ),
+		url("https://images.pexels.com/photos/302458/pexels-photo-302458.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: #FFF;
+	font-size: 2em;
+}
+.seasonal {
+	background:
+		linear-gradient( rgba(54,0,51, .6), rgba(11,135,147, .6) ),
+		url("https://images.pexels.com/photos/110472/pexels-photo-110472.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: contain;
+	color: #FFF;
+	font-size: 2em;
+}
+.virgin {
+	background:
+		linear-gradient( rgba(54,0,51, .6), rgba(11,135,147, .8) ),
+		url("https://images.pexels.com/photos/545058/pexels-photo-545058.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: contain;
+	color: #FFF;
+	font-size: 2em;
 }
