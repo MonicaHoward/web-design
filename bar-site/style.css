@@ -65,7 +65,7 @@ header {
   height: 100vh;
   width: 100vw;
 }
-nav {
+nav, section {
   padding: 2% 10% 0 10%;
 }
 nav span {
@@ -130,4 +130,26 @@ nav span {
   color: #FFF;
   margin: 5% 1%;
   padding: 1%;
+}
+/*DRINK SPECIALS SECTION*/
+.drink-specials {
+
+}
+.box-container {
+  margin: 5% auto;
+	text-align: center;
+  width: 90%;
+}
+.box-container span {
+	display: inline-block;
+	margin: 2%;
+  text-align: center;
+	height: 45vh;
+  width: 45%;
+}
+.box-container img {
+  /*background-color: linear-gradient( rgba(54,0,51, .9), rgba(11,135,147, .9) );*/
+  width: 100%;
+	height: 100%;
+	border-radius: 2px;
 }
