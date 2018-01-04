@@ -279,23 +279,21 @@ nav span {
 	height: 40vh;
 }
 .building img {
-
 	background-size: cover;
 	background-repeat:no-repeat;
-	border-radius: 3px;
+	border-radius: 3px;7
 	float: left;
 	height: 40vh;
 	width: 33%;
 }
-/*.about-text {
-	/*background:
-		linear-gradient( rgba(54,0,51, .9), rgba(11,135,147, .9) );*/
-	/*color: #FFF;
+.about-text {
+	color: #FFF;
 	float: left;
 	height: 40vh;
 	width: 33%;
 }
-.owner {*/
+
+/*.owner {
 	/*background:
 		linear-gradient( rgba(54,0,51, .9), rgba(11,135,147, .9) ),
 		url("https://images.pexels.com/photos/173295/pexels-photo-173295.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");*/
