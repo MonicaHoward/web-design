@@ -272,8 +272,9 @@ nav span {
 	background-size: cover;
 	background-repeat:no-repeat;
 	color: #FFF;
-	font-size: 2em;
+	/*font-size: 2em;*/
 	font-weight: 800;
+
 	padding: 1%;
 	text-align: center;
 	height: 40vh;
@@ -281,18 +282,37 @@ nav span {
 .building img {
 	background-size: cover;
 	background-repeat:no-repeat;
-	border-radius: 3px;7
+	border-radius: 3px;
 	float: left;
-	height: 40vh;
+	margin: 3% 10%;
+	/*height: 40vh;*/
 	width: 33%;
 }
 .about-text {
 	color: #FFF;
-	float: left;
-	height: 40vh;
+	float: right;
+	/*height: 40vh;*/
 	width: 33%;
+	margin: 3% 10% auto auto;
+	text-align: right;
 }
-
+.about-text h3 {
+	font-weight: 600;
+	font-size: 2em;
+	line-height: 2;
+}
+.about-text p {
+	font-size: 1.25em;
+	font-weight: 200;
+	line-height: 1.5;
+}
+.owner {
+	clear: both;
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
 /*.owner {
 	/*background:
 		linear-gradient( rgba(54,0,51, .9), rgba(11,135,147, .9) ),
