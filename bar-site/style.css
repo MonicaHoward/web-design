@@ -308,7 +308,26 @@ nav span {
 }
 .owner {
 	clear: both;
+	/*text-align: center;*/
+}
+form {
+	border: 1px solid black;
+	margin: 5% auto;
+	height: 50vh;
+	width: 50vw;
 	text-align: center;
+}
+input {
+	height: 10%;
+	width: 45%;
+	margin: 1%;
+}
+.email {
+	width: 93%;
+}
+button {
+	float: right;
+	margin: 5%;
 }
 footer {
 	text-align: center;
