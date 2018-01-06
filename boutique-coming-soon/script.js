@@ -14,10 +14,10 @@ function startTimer(id, launchDate) {
     var clock = document.getElementById(id);
     var timer = updateTimer(launchDate);
 
-  clock.innerHTML = '<span>' + timer.days + '</span>'
-                  + '<span>' + timer.hours + '</span>'
-                  + '<span>' + timer.minutes + '</span>'
-                  + '<span>' + timer.seconds + '</span>';
+  clock.innerHTML = '<span>' + timer.days +  '<div>days</div>' + '</span>'
+                  + '<span>' + timer.hours + '<div>hours</div>' + '</span>'
+                  + '<span>' + timer.minutes + '<div>minutes</div>' + '</span>'
+                  + '<span>' + timer.seconds + '<div>seconds</div>' + '</span>';
 
   if (timer.total < 1) {
     clearInterval(timerInterval);

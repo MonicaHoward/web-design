@@ -94,6 +94,11 @@ table {
   color: rgb(238,156,167);
 font-family: 'Shadows Into Light', cursive;
 }
+#clock{
+  font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    line-height: 2;
+}
 .counter-container {
   margin: 0 auto;
   padding: 3%;
@@ -112,5 +117,4 @@ span p {
 font-family: 'Dancing Script', cursive;
   font-size: 2em;
   margin-top: 15%;
-
 }
