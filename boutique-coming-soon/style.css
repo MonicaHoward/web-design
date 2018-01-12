@@ -63,7 +63,7 @@ table {
   margin: 0 auto;
   width: 40%;
 }*/
-.text-logo {
+/*.text-logo {
   font-family: 'Pacifico', cursive;
   font-size: 2em;
   margin: 0 auto;
@@ -80,11 +80,23 @@ table {
   font-family: 'Cookie', cursive;
   font-size: 2em;
   padding: 5%;
+}*/
+.text-logo img {
+	/*margin-top: -15%;*/
+	background: green;
+	width: 120%;
 }
+/*.add-border {
+		border: 1px solid rgba(238,156,167,.9);;
+		border-radius: 5px;
+		margin: 0 auto;
+	  margin-top: -15%;
+		width: 70%;
+}*/
 .title {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
-  /*margin-top: -10%;*/
+
 }
 .title h1 {
 
@@ -93,6 +105,7 @@ table {
 .sub-title {
   color: rgb(238,156,167);
 font-family: 'Shadows Into Light', cursive;
+
 }
 #clock{
   font-family: 'Dancing Script', cursive;

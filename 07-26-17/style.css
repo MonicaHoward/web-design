@@ -47,18 +47,13 @@ table {
 	border-spacing: 0;
 }
 /*END OF CSS RESET - START OF CSS*/
-body {
-  background: #DAD6D6;
-}
-.logo {
-
-}
-.business-name {
-
-}
-.talk-bubble-1 {
-
-}
-.hamburger-menu {
-
+.header {
+	background:
+	 linear-gradient(rgba(187,159,6, 0.9), rgba(187,2,1, .9)),
+	 url("https://images.pexels.com/photos/9137/night-vintage-music-bokeh.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
 }
